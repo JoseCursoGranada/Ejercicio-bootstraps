@@ -1,0 +1,32 @@
+    body {
+      scroll-behavior: smooth;
+    }
+    .hero {
+      background: url("../img/fondo.jpg") no-repeat center center/cover;
+      color: rgb(0, 0, 0);
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      filter:opacity(0.85)
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+    .navbar-brand img {
+      height: 70px;
+    }
+h1, p{
+    color: #000000;
+}
+nav{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.Logo{
+    height: 60px;
+    width: auto;
+}
